@@ -743,9 +743,9 @@ class CanvasMainWindow(QMainWindow):
         self.help_menu.addActions([
             self.about_action,
             self.welcome_action,
-            self.get_started_screencasts_action,
+            # self.get_started_screencasts_action,
             self.examples_action,
-            self.documentation_action
+            # self.documentation_action
         ])
 
         menu_bar.addMenu(self.help_menu)
