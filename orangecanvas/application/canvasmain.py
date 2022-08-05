@@ -740,6 +740,7 @@ class CanvasMainWindow(QMainWindow):
         self.help_menu = QMenu(
             self.tr("&Help"), menu_bar, objectName="help-menu",
         )
+        # kh
         self.help_menu.addActions([
             self.about_action,
             self.welcome_action,
